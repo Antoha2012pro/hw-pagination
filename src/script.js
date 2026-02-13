@@ -38,7 +38,7 @@ function renderImages(images) {
     const li = document.createElement("li");
     li.className = "gallery-item";
     li.innerHTML = `
-      <img src="${image.webformatURL}" alt="${image.tags}" class="gallery-img" title="${image.tags}">
+      <img src="${image.webformatURL}" alt="${image.tags}" class="gallery-img">
     `;
     galleryElement.appendChild(li);
   });
